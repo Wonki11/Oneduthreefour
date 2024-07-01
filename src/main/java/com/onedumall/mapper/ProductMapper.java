@@ -14,8 +14,16 @@ import com.onedumall.dto.Product;
 public interface ProductMapper {
 
 	
+<<<<<<< HEAD
 	public void insertProduct(Product product);
 	
 		
 
 }
+=======
+	public void INSERTPRODUCT(Product product);
+	
+		
+
+}
+>>>>>>> jinwoo-onedu

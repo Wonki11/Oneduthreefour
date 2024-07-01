@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', function() {
+=======
+/**
+ * 
+ */document.addEventListener('DOMContentLoaded', function() {
+>>>>>>> jinwoo-onedu
 	var productTitle = document.getElementById("productTitle");
 	var productNameInput = document.getElementById('productName');
     	productNameInput.value = productTitle.innerText.trim();
@@ -50,4 +56,8 @@ document.addEventListener('DOMContentLoaded', function() {
     	
     
     }
+<<<<<<< HEAD
     });
+=======
+});
+>>>>>>> jinwoo-onedu

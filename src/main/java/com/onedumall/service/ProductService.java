@@ -15,6 +15,7 @@ public class ProductService {
 	@Autowired
 	private ProductMapper productmapper;
 
+<<<<<<< HEAD
 	public void insertProduct(String Product_option, int Product_count, int Product_price, String Product_name) {
 		Product product = new Product();
 		product.setProduct_option(Product_option);
@@ -27,3 +28,17 @@ public class ProductService {
 	}
 
 }
+=======
+	public void INSERTPRODUCT(String PRODUCT_OPTION, int PRODUCT_COUNT, int PRODUCT_PRICE, String PRODUCT_NAME) {
+		Product product = new Product();
+		product.setPRODUCT_OPTION(PRODUCT_OPTION);
+		product.setPRODUCT_NAME(PRODUCT_NAME);
+		product.setPRODUCT_PRICE(PRODUCT_PRICE);
+		product.setPRODUCT_COUNT(PRODUCT_COUNT);
+		log.info(" ************* product **********" + product.toString());
+
+		productmapper.INSERTPRODUCT(product);
+	}
+
+}
+>>>>>>> jinwoo-onedu
