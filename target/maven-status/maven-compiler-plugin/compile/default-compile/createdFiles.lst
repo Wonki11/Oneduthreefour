@@ -1,0 +1,5 @@
+com\onedumall\service\PostService.class
+com\onedumall\controller\PostController.class
+com\onedumall\mapper\PostMapper.class
+com\onedumall\OnedumallApplication.class
+com\onedumall\dto\Post.class
