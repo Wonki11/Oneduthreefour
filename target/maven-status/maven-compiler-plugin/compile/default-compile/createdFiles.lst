@@ -1,0 +1,5 @@
+com\onedumall\controller\CoffeeBeanTestController.class
+com\onedumall\dto\CoffeeBeanTest.class
+com\onedumall\OnedumallApplication.class
+com\onedumall\mapper\CoffeeBeanTestMapper.class
+com\onedumall\service\CoffeeBeanTestService.class
