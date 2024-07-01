@@ -22,6 +22,7 @@ public class MembersController {
 	
 	@Autowired
 	private RegisterMemService registerService;
+	@Autowired
 	private ProductsSrcService productsService;
 	
 	@GetMapping("/")
@@ -58,7 +59,9 @@ public class MembersController {
 	public String searchProducts(Model model, @RequestParam("keyword")String keyword) {
 		
 		List<ProductsSrc> product = productsService.searchProductsSrc(keyword);
+		log.info("1");
 		model.addAttribute("result" , product);
+		log.info("2");
 		return "Main_ssu";
 	}
 }
