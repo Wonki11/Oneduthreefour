@@ -1,0 +1,8 @@
+com\onedumall\dto\ProductsSrc.class
+com\onedumall\mapper\ProductsSrcMapper.class
+com\onedumall\service\ProductsSrcService.class
+com\onedumall\controller\MembersController.class
+com\onedumall\mapper\RegisterMemMapper.class
+com\onedumall\service\RegisterMemService.class
+com\onedumall\dto\MembersReg.class
+com\onedumall\OnedumallApplication.class
