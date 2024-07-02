@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -22,6 +23,7 @@ public class MembersController {
 	
 	@Autowired
 	private RegisterMemService registerService;
+	@Autowired
 	private ProductsSrcService productsService;
 	
 	@GetMapping("/")
@@ -29,36 +31,35 @@ public class MembersController {
 		
 		return"Main_ssu";
 	}
-	@GetMapping("/Main_ssu")
-	public String mainForm2(Model model) {
-		
-		return"Main_ssu";
-	}
-	@GetMapping("/Register_ssu")
+	
+	@GetMapping("/register_ssu")
 	public String registerForm(Model model) {
-		model.addAttribute("members", new MembersReg());
-		return "Register_ssu";	
+		model.addAttribute("membersReg", new MembersReg());
+		return "register_ssu";	
 	}
 	
 	
-	@PostMapping("/Register_ssu")
-	public String insertRegister(MembersReg members, Model model) {
-		log.info("1"+members.getMembers_id());
-		registerService.insertRegister(members);
-		log.info("2"+members.getMembers_pw());
+	@PostMapping("/register_ssu")
+	public String insertRegister(@ModelAttribute("membersReg")MembersReg membersReg, Model model) {
+		log.info("1"+membersReg.getMembers_id());
+		registerService.insertRegister(membersReg);
+		log.info("2"+membersReg.getMembers_pw());
+		
 		model.addAttribute("msg","회원가입이 성공적으로 완료됐습니다.");		
-		return "Main_ssu";
+		return "main_ssu";
 		
 	}
-	@GetMapping("/Main_ssu")
+	@GetMapping("/main_ssu")
 	public String showSearchForm(Model model) {
-		return "Main_ssu";
+		return "main_ssu";
 	}
-	@PostMapping("/Main_ssu")
-	public String searchProducts(Model model, @RequestParam("keyword")String keyword) {
+	@PostMapping("/main_ssu")
+	public String searchProductsSrc(Model model, @RequestParam("keyword")String keyword) {
 		
-		List<ProductsSrc> product = productsService.searchProductsSrc(keyword);
-		model.addAttribute("result" , product);
-		return "Main_ssu";
+		List<ProductsSrc> productSrc = productsService.searchProductsSrc(keyword);
+		log.info("1");
+		model.addAttribute("result" , productSrc);
+		log.info("2");
+		return "main_ssu";
 	}
 }
