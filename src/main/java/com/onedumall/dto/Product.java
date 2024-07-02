@@ -13,19 +13,9 @@ import lombok.ToString;
 @ToString
 public class Product {
 
-<<<<<<< HEAD
-	private String Product_name;
-	private String Product_option;
-	private int Product_price;
-	private int Product_count;
-
-}
-=======
 	
 	private String Product_name;
 	private String Product_option;
 	private int Product_count;
 	private int Product_price;
 }
-
->>>>>>> jinwoo-onedu

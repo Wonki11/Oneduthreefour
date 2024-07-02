@@ -22,11 +22,7 @@ public class Postcontroller {
 //123
 	@Autowired
 	private PostService postService;
-	// after delete
-	@GetMapping("/")
-	public String mainDelete() {
-		return "wonkimain";
-	}
+
 	@GetMapping("/boardList")
 	public String getAllPost(Model model) {
 		List<Post> posts = postService.getAllPost();
