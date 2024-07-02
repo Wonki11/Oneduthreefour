@@ -55,19 +55,12 @@ public class MembersController {
 	}
 	@PostMapping("/main_ssu")
 	public String searchProductsSrc(Model model, @RequestParam("keyword")String keyword) {
-		
-<<<<<<< HEAD
+	
 		List<ProductsSrc> productSrc = productsService.searchProductsSrc(keyword);
 		log.info("1");
 		model.addAttribute("result" , productSrc);
 		log.info("2");
 		return "main_ssu";
-=======
-		List<ProductsSrc> product = productsService.searchProductsSrc(keyword);
-		log.info("1");
-		model.addAttribute("result" , product);
-		log.info("2");
-		return "Main_ssu";
->>>>>>> fa6e35d132fbef49d2260375868aa8c12879b6d6
+
 	}
 }

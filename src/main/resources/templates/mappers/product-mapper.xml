@@ -6,18 +6,9 @@
 
 <mapper namespace="com.onedumall.mapper.ProductMapper">
 	<insert id="insertProduct" parameterType="com.onedumall.dto.Product">
-<<<<<<< HEAD
-	INSERT INTO PRODUCT( PRODUCT_NAME, PRODUCT_PRICE, PRODUCT_COUNT,PRODUCT_OPTION)
-	VALUES (#{PRODUCT_NAME}, #{PRODUCT_PRICE}, #{PRODUCT_COUNT},#{PRODUCT_OPTION})	
-=======
 	INSERT INTO Product( Product_name, Product_price, Product_count,Product_option)
 	VALUES (#{Product_name}, #{Product_price}, #{Product_count},#{Product_option})	
->>>>>>> jinwoo-onedu
+
 	</insert>
     
 </mapper>
-
-<<<<<<< HEAD
-=======
-
->>>>>>> jinwoo-onedu
