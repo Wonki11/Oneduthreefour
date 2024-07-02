@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     var productTitle = document.getElementById("productTitle");
-    var productNameInput = document.getElementById('Product_name'); // Corrected id name
+    var productNameInput = document.getElementById('ProductName'); // Corrected id name
     
     if (productNameInput) {
         productNameInput.value = productTitle.innerText.trim();
     }
     
     const subcategories = {
-        '모카포트': ['200g']['500g']['1kg'],
-        '에스프레소': ['200g']['500g']['1kg'],
-        '드립커피': ['200g']['500g']['1kg'],
-        '더치커피': ['200g']['500g']['1kg']
+        '모카포트': ['200g', '500g', '1kg'],
+        '에스프레소': ['200g', '500g', '1kg'],
+        '드립커피': ['200g', '500g', '1kg'],
+        '더치커피': ['200g', '500g', '1kg']
     };
 
     document.getElementById('category').addEventListener('change', function() {

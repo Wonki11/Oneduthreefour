@@ -20,14 +20,4 @@
     margin-bottom: 10px;
 }
 
-.heart{
-	border-radius: 15px;
-    box-shadow: 10px;   
-    background-color:antiquewhite;
-    
-}
-.heart:hover{
-    background-color: red;
-
-}
 	
