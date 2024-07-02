@@ -9,4 +9,11 @@ public interface ProductMapper {
 
 	public void insertProduct(Product product);
 	
+<<<<<<< HEAD
+=======
+	public void insertProduct(Product product);
+	
+		
+
+>>>>>>> jinwoo-onedu
 }
