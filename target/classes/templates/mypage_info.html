@@ -31,43 +31,43 @@ body {
 	padding: 10px;
 }
 
-.content {
+.content form {
 	background-color: white;
 	margin: 20px;
 	padding: 30px;
 	border-radius: 10px;
 }
 
-.content input {
-	margin: 5px;
-	padding: 10px;
-	border-radius: 5px;
-	border: 1px solid #ccc;
+.address_info {
+	margin-bottom: 50px;
 }
 
 a {
 	background-color: #54bab9;
-	margin: 5px;
+	margin: 10px;
 	padding: 10px;
 	border-radius: 5px;
 	border: none;
-	background-color:#ccc;
-	text-decoration:none;
-	color:black;
+	background-color: #ccc;
+	text-decoration: none;
+	color: black;
 }
 
-.modify-btn:hover{
+.modify-btn:hover {
 	background-color: lightpink;
-}
-a:hover {
-	background-color: #54bab9;
+	color: white;
 }
 
-.footer {
-	background-color: #e9dac1;
-	margin: 10px;
-	padding: 10px;
+.check:hover {
+	background-color: #54bab9;
+	color: white;
 }
+/*
+        .a_tag{
+            text-align: center;
+        }
+        */
+
 </style>
 </head>
 <body>
@@ -78,7 +78,8 @@ a:hover {
 
 		<div class="content">
 
-			<form th:action="@{mypage_infoModify}" th:object="${members}" method="post">
+			<form th:action="@{mypage_infoModify}" th:object="${members}"
+				method="post">
 				<img src="image/user (2).png" />
 
 				<div>
@@ -105,15 +106,17 @@ a:hover {
 					<hr>
 				</div>
 
-				<div>
+				<div class="address_info">
 					<h6>주소</h6>
 					<h5 th:text="*{members_address}"></h5>
 					<hr>
 				</div>
 
-				<a th:href="@{/mypage_infoModify}" class="modify-btn">수정하기</a>
-				<a th:href="@{/mypage_home}" id="confirmButton">확인하기</a>
-				<!--  button = button submit reset  -->
+				<div class="a_tag">
+					<a th:href="@{/mypage_infoModify}" class="modify-btn">수정하기</a> <a
+						th:href="@{/mypage_home}" class="check" id="confirmButton">돌아가기</a>
+					<!--  button = button submit reset  -->
+				</div>
 			</form>
 		</div>
 
@@ -126,22 +129,12 @@ a:hover {
 		function cancelUpdate() {
 			alert('수정이 취소되었습니다.');
 		}
-		
-		document.getElementById("confirmButton").addEventListener("click", function() {
-            window.location.href = "/mypage_home"; // 마이페이지 홈으로 이동
-        });
-		
-		
+
+		document.getElementById("confirmButton").addEventListener("click",
+				function() {
+					window.location.href = "/mypage_home"; // 마이페이지 홈으로 이동
+				});
 	</script>
-
-
-	<!--footer-->
-	<footer class="footer mt-5">
-		<div class="container text-center">
-			<p>&copy; 2024 브랜드명.All Right Reserved.</p>
-			<p>개인정보처리방침 | 이용약관</p>
-		</div>
-	</footer>
 
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
