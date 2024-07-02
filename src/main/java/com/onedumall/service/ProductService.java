@@ -15,15 +15,15 @@ public class ProductService {
 	@Autowired
 	private ProductMapper productmapper;
 
-	public void INSERTPRODUCT(String PRODUCT_OPTION, int PRODUCT_COUNT, int PRODUCT_PRICE, String PRODUCT_NAME) {
+	public void insertProduct(String Product_option, int Product_count, int Product_price, String Product_name) {
 		Product product = new Product();
-		product.setPRODUCT_OPTION(PRODUCT_OPTION);
-		product.setPRODUCT_NAME(PRODUCT_NAME);
-		product.setPRODUCT_PRICE(PRODUCT_PRICE);
-		product.setPRODUCT_COUNT(PRODUCT_COUNT);
+		product.setProduct_option(Product_option);
+		product.setProduct_name(Product_name);
+		product.setProduct_price(Product_price);
+		product.setProduct_count(Product_count);
 		log.info(" ************* product **********" + product.toString());
 
-		productmapper.INSERTPRODUCT(product);
+		productmapper.insertProduct(product);
 	}
 
 }

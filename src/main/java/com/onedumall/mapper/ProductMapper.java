@@ -14,7 +14,7 @@ import com.onedumall.dto.Product;
 public interface ProductMapper {
 
 	
-	public void INSERTPRODUCT(Product product);
+	 void insertProduct(Product product);
 	
 		
 
