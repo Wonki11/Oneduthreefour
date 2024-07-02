@@ -74,7 +74,5 @@ public class PostService {
 	        postMapper.updateQnA(post);
 	    }
 	   
-	   
-	
-	
 }
+

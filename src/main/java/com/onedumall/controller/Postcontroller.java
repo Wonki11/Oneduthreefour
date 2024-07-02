@@ -18,11 +18,15 @@ import lombok.extern.slf4j.Slf4j;
 
 @Controller
 @Slf4j
-public class Postcontroller {
+public class PostController {
 
 	@Autowired
 	private PostService postService;
-
+	// after delete
+	@GetMapping("/")
+	public String mainDelete() {
+		return "wonkimain";
+	}
 	@GetMapping("/boardList")
 	public String getAllPost(Model model) {
 		List<Post> posts = postService.getAllPost();
