@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 @Controller
 @Slf4j
 public class Postcontroller {
-
+//123
 	@Autowired
 	private PostService postService;
 	// after delete
