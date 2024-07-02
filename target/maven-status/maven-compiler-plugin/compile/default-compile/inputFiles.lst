@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\user1\Desktop\LASTWORKUP\Oneduthreefour\Oneduthreefour\src\main\java\com\onedumall\controller\MembersController.java
 C:\Users\user1\Desktop\LASTWORKUP\Oneduthreefour\Oneduthreefour\src\main\java\com\onedumall\dto\MembersReg.java
 C:\Users\user1\Desktop\LASTWORKUP\Oneduthreefour\Oneduthreefour\src\main\java\com\onedumall\dto\ProductsSrc.java
@@ -17,3 +18,10 @@ C:\Users\user1\Desktop\lastWorkspace\Oneduthreefour\src\main\java\com\onedumall\
 C:\Users\user1\Desktop\lastWorkspace\Oneduthreefour\src\main\java\com\onedumall\service\ProductsSrcService.java
 C:\Users\user1\Desktop\lastWorkspace\Oneduthreefour\src\main\java\com\onedumall\service\RegisterMemService.java
 >>>>>>> fa6e35d132fbef49d2260375868aa8c12879b6d6
+=======
+C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\controller\PostController.java
+C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\dto\Post.java
+C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\mapper\PostMapper.java
+C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\OnedumallApplication.java
+C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\service\PostService.java
+>>>>>>> 661a71e26095973228655d9a2c734b2a5d90959c

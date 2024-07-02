@@ -2,6 +2,7 @@
 Test set: com.onedumall.OnedumallApplicationTests
 -------------------------------------------------------------------------------
 <<<<<<< HEAD
+<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.218 s -- in com.onedumall.OnedumallApplicationTests
 =======
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.294 s <<< FAILURE! -- in com.onedumall.OnedumallApplicationTests
@@ -153,3 +154,6 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.onedumall.dt
 	... 107 more
 
 >>>>>>> fa6e35d132fbef49d2260375868aa8c12879b6d6
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.170 s -- in com.onedumall.OnedumallApplicationTests
+>>>>>>> 661a71e26095973228655d9a2c734b2a5d90959c
