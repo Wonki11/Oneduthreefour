@@ -1,19 +1,16 @@
-<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', function() {
-=======
-/**
- * 
- */document.addEventListener('DOMContentLoaded', function() {
->>>>>>> jinwoo-onedu
-	var productTitle = document.getElementById("productTitle");
-	var productNameInput = document.getElementById('productName');
-    	productNameInput.value = productTitle.innerText.trim();
-	
+    var productTitle = document.getElementById("productTitle");
+    var productNameInput = document.getElementById('Product_name'); // Corrected id name
+    
+    if (productNameInput) {
+        productNameInput.value = productTitle.innerText.trim();
+    }
+    
     const subcategories = {
-        '모카포트': ['200g'],
-        '에스프레소': ['200g'],
-        '드립커피': ['200g'],
-        '더치커피': ['200g']
+        '모카포트': ['200g']['500g']['1kg'],
+        '에스프레소': ['200g']['500g']['1kg'],
+        '드립커피': ['200g']['500g']['1kg'],
+        '더치커피': ['200g']['500g']['1kg']
     };
 
     document.getElementById('category').addEventListener('change', function() {
@@ -47,17 +44,6 @@ document.addEventListener('DOMContentLoaded', function() {
         var quantity = parseInt(document.getElementById('quantity').value);
         var totalAmount = price * quantity;
         document.getElementById('totalAmount').textContent = '총 상품금액: ' + totalAmount.toLocaleString() + '원';
-    	document.getElementById('productPrice').value = totalAmount;
-    	
-    	
-    	
-    	
-    	
-    	
-    
+        document.getElementById('productPrice').value = totalAmount;
     }
-<<<<<<< HEAD
-    });
-=======
 });
->>>>>>> jinwoo-onedu
