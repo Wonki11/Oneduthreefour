@@ -1,6 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: com.onedumall.OnedumallApplicationTests
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.218 s -- in com.onedumall.OnedumallApplicationTests
+=======
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.294 s <<< FAILURE! -- in com.onedumall.OnedumallApplicationTests
 com.onedumall.OnedumallApplicationTests.contextLoads -- Time elapsed: 0.010 s <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@315c081 testClass = com.onedumall.OnedumallApplicationTests, locations = [], classes = [com.onedumall.OnedumallApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4331d187, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@29ca3d04, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1b955cac, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@2a62b5bc, org.springframework.boot.test.context.SpringBootTestAnnotation@4df9cf9a], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
@@ -149,3 +152,4 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.onedumall.dt
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
 	... 107 more
 
+>>>>>>> fa6e35d132fbef49d2260375868aa8c12879b6d6
