@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.onedumall.dto.MembersLogin;
-import com.onedumall.service.MembersLoginService;
+import com.onedumall.dto.Member;
+import com.onedumall.service.MemberService;
 
 import jakarta.servlet.http.HttpSession;
 
@@ -18,11 +18,11 @@ import jakarta.servlet.http.HttpSession;
 public class LoginController {
 
     @Autowired
-    private MembersLoginService memberLoginService;
+    private MemberService memberService;
 
     @GetMapping("/login")
     public String showLoginForm(Model model) {
-    	model.addAttribute("m", new MembersLogin());
+    	model.addAttribute("m", new Member());
     	return "login";
     	
     }
@@ -32,13 +32,13 @@ public class LoginController {
 			@RequestParam("members_pw") String members_pw, HttpSession session) {
     
     
-    	MembersLogin members = memberLoginService.getLogin(members_id, members_pw);
+    	Member members = memberService.getLogin(members_id, members_pw);
 		if (members != null) { // member 객체에 값이 들어있다면!
 			session.setAttribute("loginSession", members);
-			return "login-register"; // 로그인 성공하면 메인 페이지로 보내기
+			return "main_ssu"; // 로그인 성공하면 메인 페이지로 보내기
 		} else { // 일치하는 정보가 없다면
 			model.addAttribute("error", "일치하는 아이디 비밀번호가 없습니다.");
-			model.addAttribute("m", new MembersLogin());
+			model.addAttribute("m", new Member());
 			return "login";// 다시 로그인 입력창으로 돌려보내기
 		}
     }

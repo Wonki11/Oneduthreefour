@@ -12,7 +12,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 
-public class MembersLogin {
+public class Member {
 
 	
 	private String members_id;
