@@ -15,11 +15,7 @@ public class ProductController {
 	@Autowired
 	private ProductService productService;
 
-	@GetMapping("/")
-	public String getStart() {
 
-		return "product-index";
-	}
 
 	@GetMapping("/product")
 	public String getProduct(Model model) {
