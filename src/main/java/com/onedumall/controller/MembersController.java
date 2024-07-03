@@ -29,7 +29,7 @@ public class MembersController {
 	@GetMapping("/")
 	public String mainForm(Model model) {
 		
-		return"Main_ssu";
+		return"main_ssu";
 	}
 	
 	@GetMapping("/register_ssu")
@@ -54,12 +54,11 @@ public class MembersController {
 		return "main_ssu";
 	}
 	@PostMapping("/main_ssu")
-	public String searchProductsSrc(Model model, @RequestParam("keyword")String keyword) {
+	public String searchProductsSrc(Model model, @RequestParam("keyword") String keyword) {
 	
 		List<ProductsSrc> productSrc = productsService.searchProductsSrc(keyword);
 		log.info("1");
 		model.addAttribute("result" , productSrc);
-		log.info("2");
 		return "main_ssu";
 
 	}
