@@ -17,7 +17,7 @@ import com.onedumall.dto.MembersLogin;
 
 @MapperScan("com.onedumall.mapper.LoginMapper")
 @Mapper
-public interface MambersMapperLogin {
+public interface MembersMapperLogin {
 
 
 MembersLogin getLogin(@Param("members_id") String members_id, @Param("members_pw") String members_pw);
