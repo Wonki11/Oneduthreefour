@@ -82,8 +82,6 @@ public class PostController {
 		return "redirect:/boardView/" + post_no;
 	}
 	
-	
-	
 	//ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 	
 	 @GetMapping("/qnaList")
