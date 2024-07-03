@@ -3,7 +3,10 @@ com\onedumall\service\MembersLoginService.class
 com\onedumall\controller\PostController.class
 com\onedumall\controller\LoginController.class
 com\onedumall\dto\Product.class
+<<<<<<< HEAD
 com\onedumall\mapper\MembersMapperLogin.class
+=======
+>>>>>>> wonki2
 com\onedumall\service\PostService.class
 com\onedumall\controller\MypageMainController.class
 com\onedumall\service\RegisterMemService.class
@@ -11,6 +14,10 @@ com\onedumall\service\ProductService.class
 com\onedumall\dto\MembersReg.class
 com\onedumall\mapper\PostMapper.class
 com\onedumall\service\MyInfoService.class
+<<<<<<< HEAD
+=======
+com\onedumall\mapper\MambersMapperLogin.class
+>>>>>>> wonki2
 com\onedumall\dto\MembersLogin.class
 com\onedumall\mapper\ProductMapper.class
 com\onedumall\controller\ProductController.class

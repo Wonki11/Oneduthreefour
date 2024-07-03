@@ -28,6 +28,12 @@
 		WHERE post_no = #{post_no}	
 	</update>
 	
+		<update id="incrementViewCount" parameterType="int">
+        UPDATE POST
+        SET post_view = post_view + 1
+        WHERE post_no = #{postNo}
+    </update>
+	
 	
 	<!-- QnA -->
 	
@@ -52,6 +58,12 @@
 			question_info = #{question_info}
 		WHERE question_no = #{question_no}	
 	</update>
+	
+		<update id="incrementViewQnaCount" parameterType="int">
+        UPDATE QUESTION
+        SET question_view = question_view + 1
+        WHERE question_no = #{postNo}
+    </update>
 	
 	
 

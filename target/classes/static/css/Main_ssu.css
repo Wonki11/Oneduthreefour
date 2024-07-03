@@ -9,16 +9,20 @@ body{
 header {
   text-align: center;
 }
-a{
+header h1{
+	margin-bottom: 70px;
+}
+
+a {
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
   color: #3f2508;
 }
+
 .icon {
   text-align: right;
 
-  
 }
 .icon a {
   font-style: normal;
@@ -27,32 +31,63 @@ a{
   color: #3f2508;
 }
 .menubar {
-  text-align: center;
-  background-color: #E9DAC1; 
-  padding : 10px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9dac1;
+  padding: 10px;
   font-size: 20px;
   font-style: normal;
   font-weight: bold;
 }
+
 .menubar a {
-  margin-right: 25px;
+  margin-right: 60px; /* 간격을 좁히려는 값으로 조정 */
   text-decoration: none;
   color: #3f2508;
+  
 }
-.container{
-    margin: auto;
-    display: flex;
-}
-.search-box{
-  padding: 20px;
-  width: 300px;
-  margin: 0 auto;
+
+.search-box {
   display: flex;
+  align-items: center;
+  width: 20%;
+}
+
+.search-box input.search-txt {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px 0 0 3px;
+  height: 34px;
+  box-sizing: border-box;
+  margin: 0; /* 기본 마진 제거 */
+}
+
+.search-box button.search-btn {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-color: #fff;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0; /* 기본 마진 제거 */
+}
+
+.search-box button.search-btn svg {
+  vertical-align: middle;
 }
 .commit{
   width: 300px;
   margin: 0 auto;
   
+}
+.container{
+    margin: auto;
+    display: flex;
 }
 /*form{
     background-color:  #E9DAC1;
