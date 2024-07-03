@@ -1,0 +1,60 @@
+html {
+    background-color: #F7ECDE;
+    margin: 20px;
+    padding: 10px;
+}
+body {
+	margin: 30px;
+	padding: 30px;
+}
+.container{
+	margin-bottom: 50px;
+	padding: 20px;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.option {
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+.option:hover {
+  background-color: #333;
+  color: white;
+}
+button {
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+button:hover {
+  background-color: #333;
+  color: white;
+}
+footer{
+  background-color: #F7ECDE;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  font-size: 16px;
+}
+.footer-container{
+  display: inherit;
+}
+.footer ul{
+  display: inherit;
+}
+.footer a{
+  margin: 20px;
+  text-decoration: none;
+  color: #3F2508;
+}
