@@ -18,7 +18,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Controller
 @Slf4j
-public class PostController {
+public class PostsController {
 
 	@Autowired
 	private PostService postService;
