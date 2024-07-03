@@ -1,21 +1,14 @@
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\controller\LoginController.java
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\controller\MembersController.java
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\controller\MypageMainController.java
-C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\controller\PostController.java
+C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\controller\PostsController.java
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\controller\ProductController.java
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\dto\Members.java
-C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\dto\MembersLogin.java
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\dto\MembersReg.java
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\dto\Post.java
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\dto\Product.java
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\dto\ProductsSrc.java
-<<<<<<< HEAD
-C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\mapper\MembersLoginMapper.java
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\mapper\MembersMapperLogin.java
-=======
-C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\mapper\MambersMapperLogin.java
-C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\mapper\MembersLoginMapper.java
->>>>>>> wonki2
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\mapper\MyinfoMapper.java
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\mapper\PostMapper.java
 C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\mapper\ProductMapper.java

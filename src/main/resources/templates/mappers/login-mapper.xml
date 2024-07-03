@@ -4,9 +4,9 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 
-<mapper namespace="com.onedumall.mapper.MembersLoginMapper">
+<mapper namespace="com.onedumall.mapper.MembersMapperLogin">
 
-	<select id="getLogin" resultSets="com.onedumall.dto.MembersLogin">
+	<select id="getLogin" resultType="com.onedumall.dto.Members">
 		SELECT * FROM Members
 		WHERE members_id=#{members_id}
 		AND members_pw=#{members_pw}
