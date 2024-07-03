@@ -16,6 +16,8 @@ public interface PostMapper {
 	
 	void updatePost(Post post);
 	
+	 void incrementViewCount(int postNo);
+	
 	//ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 	
 	List<Post> getAllQnA();
@@ -25,6 +27,8 @@ public interface PostMapper {
 	void QnARegister(Post post);
 	
 	void updateQnA(Post post);
+	
+	void incrementViewQnaCount(int postNo);
 		
 	
 }

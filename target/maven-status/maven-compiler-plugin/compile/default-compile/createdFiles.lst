@@ -1,6 +1,9 @@
 com\onedumall\dto\ProductsSrc.class
 com\onedumall\service\MembersLoginService.class
+<<<<<<< HEAD
 com\onedumall\controller\PostController.class
+=======
+>>>>>>> 6d520fdf56f118de7e93b399d5b8322012273c08
 com\onedumall\controller\LoginController.class
 com\onedumall\dto\Product.class
 com\onedumall\mapper\MembersMapperLogin.class
@@ -10,8 +13,13 @@ com\onedumall\service\RegisterMemService.class
 com\onedumall\service\ProductService.class
 com\onedumall\dto\MembersReg.class
 com\onedumall\mapper\PostMapper.class
+<<<<<<< HEAD
 com\onedumall\service\MyInfoService.class
 com\onedumall\dto\MembersLogin.class
+=======
+com\onedumall\controller\PostsController.class
+com\onedumall\service\MyInfoService.class
+>>>>>>> 6d520fdf56f118de7e93b399d5b8322012273c08
 com\onedumall\mapper\ProductMapper.class
 com\onedumall\controller\ProductController.class
 com\onedumall\mapper\ProductsSrcMapper.class
@@ -20,6 +28,9 @@ com\onedumall\dto\Members.class
 com\onedumall\controller\MembersController.class
 com\onedumall\mapper\RegisterMemMapper.class
 com\onedumall\mapper\MyinfoMapper.class
+<<<<<<< HEAD
 com\onedumall\mapper\MembersLoginMapper.class
+=======
+>>>>>>> 6d520fdf56f118de7e93b399d5b8322012273c08
 com\onedumall\OnedumallApplication.class
 com\onedumall\dto\Post.class

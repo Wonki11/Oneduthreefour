@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.onedumall.OnedumallApplicationTests
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.283 s -- in com.onedumall.OnedumallApplicationTests
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.282 s -- in com.onedumall.OnedumallApplicationTests
+>>>>>>> 6d520fdf56f118de7e93b399d5b8322012273c08
