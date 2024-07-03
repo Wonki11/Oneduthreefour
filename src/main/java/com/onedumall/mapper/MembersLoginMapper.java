@@ -7,17 +7,6 @@ import org.mybatis.spring.annotation.MapperScan;
 
 import com.onedumall.dto.MembersLogin;
 
-
-
-
-
-
-
-
-
-
-
-@MapperScan("com.onedumall.mapper.LoginMapper")
 @Mapper
 public interface MembersLoginMapper {
 
