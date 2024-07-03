@@ -35,7 +35,7 @@ public class LoginController {
     	MembersLogin members = memberLoginService.getLogin(members_id, members_pw);
 		if (members != null) { // member 객체에 값이 들어있다면!
 			session.setAttribute("loginSession", members);
-			return "login-register"; // 로그인 성공하면 메인 페이지로 보내기
+			return "/main_ssu"; // 로그인 성공하면 메인 페이지로 보내기
 		} else { // 일치하는 정보가 없다면
 			model.addAttribute("error", "일치하는 아이디 비밀번호가 없습니다.");
 			model.addAttribute("m", new MembersLogin());
