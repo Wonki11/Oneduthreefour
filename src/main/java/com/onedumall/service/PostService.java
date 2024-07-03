@@ -46,6 +46,11 @@ public class PostService {
 		postMapper.updatePost(post);
 	}
 	
+	//조회수 서비스 로직
+	public void incrementViewCount(int postNo) {
+        postMapper.incrementViewCount(postNo);
+    }
+	
 	//ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 	
 	 public List<Post> getAllQnA() {
@@ -72,6 +77,11 @@ public class PostService {
 
 	    public void updateQnA(Post post) {
 	        postMapper.updateQnA(post);
+	    }
+	    
+	  //조회수 서비스 로직
+		public void incrementViewQnaCount(int postNo) {
+	        postMapper.incrementViewQnaCount(postNo);
 	    }
 	   
 }

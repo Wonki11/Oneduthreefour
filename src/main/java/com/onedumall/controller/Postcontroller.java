@@ -52,7 +52,8 @@ public class PostController {
 	}
 
 	@GetMapping("/boardView/{post_no}")
-	public String getPostById(Model model, @PathVariable int post_no) {
+	public String getPostById(Model model, @PathVariable("post_no") int post_no) {
+		postService.incrementViewCount(post_no);
 		Post post = postService.getPostById(post_no);
 		model.addAttribute("post", post);
 		return "boardview";
@@ -80,6 +81,8 @@ public class PostController {
 		
 		return "redirect:/boardView/" + post_no;
 	}
+	
+	
 	
 	//ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 	
@@ -112,7 +115,8 @@ public class PostController {
 	    }
 
 	    @GetMapping("/qnaView/{question_no}")
-	    public String getQnAById(Model model, @PathVariable int question_no) {
+	    public String getQnAById(Model model, @PathVariable("question_no") int question_no) {
+	    	postService.incrementViewQnaCount(question_no);
 	        Post post = postService.getQnAById(question_no);
 	        model.addAttribute("post", post);
 	        return "qnaview";

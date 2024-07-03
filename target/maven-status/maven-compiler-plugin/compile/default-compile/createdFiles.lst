@@ -1,16 +1,25 @@
-<<<<<<< HEAD
 com\onedumall\dto\ProductsSrc.class
+com\onedumall\service\MembersLoginService.class
+com\onedumall\controller\PostController.class
+com\onedumall\controller\LoginController.class
+com\onedumall\dto\Product.class
+com\onedumall\service\PostService.class
+com\onedumall\controller\MypageMainController.class
+com\onedumall\service\RegisterMemService.class
+com\onedumall\service\ProductService.class
+com\onedumall\dto\MembersReg.class
+com\onedumall\mapper\PostMapper.class
+com\onedumall\service\MyInfoService.class
+com\onedumall\mapper\MambersMapperLogin.class
+com\onedumall\dto\MembersLogin.class
+com\onedumall\mapper\ProductMapper.class
+com\onedumall\controller\ProductController.class
 com\onedumall\mapper\ProductsSrcMapper.class
 com\onedumall\service\ProductsSrcService.class
+com\onedumall\dto\Members.class
 com\onedumall\controller\MembersController.class
 com\onedumall\mapper\RegisterMemMapper.class
-com\onedumall\service\RegisterMemService.class
-com\onedumall\dto\MembersReg.class
-com\onedumall\OnedumallApplication.class
-=======
-com\onedumall\service\PostService.class
-com\onedumall\controller\PostController.class
-com\onedumall\mapper\PostMapper.class
+com\onedumall\mapper\MyinfoMapper.class
+com\onedumall\mapper\MembersLoginMapper.class
 com\onedumall\OnedumallApplication.class
 com\onedumall\dto\Post.class
->>>>>>> 661a71e26095973228655d9a2c734b2a5d90959c
