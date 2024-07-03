@@ -13,11 +13,12 @@
 					
 			<div class="icon">
 				<a href="/register_ssu">회원가입</a> <div th:if="${session.loginSession == null}"> <a href="/login">로그인</a> </div>
-			</div>
-			<div th:if="${session.loginSession != null}">
+						<div th:if="${session.loginSession != null}">
 				<p th:text="${session.loginSession.members_id}"></p>
 				<a href="/logout">로그아웃</a>
-			</div>	
+			</div>
+			</div>
+				
 			<h1>
 				<a href="/main_ssu">원두쓰리포</a>
 			</h1>
