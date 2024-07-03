@@ -1,27 +1,24 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-C:\Users\user1\Desktop\LASTWORKUP\Oneduthreefour\Oneduthreefour\src\main\java\com\onedumall\controller\MembersController.java
-C:\Users\user1\Desktop\LASTWORKUP\Oneduthreefour\Oneduthreefour\src\main\java\com\onedumall\dto\MembersReg.java
-C:\Users\user1\Desktop\LASTWORKUP\Oneduthreefour\Oneduthreefour\src\main\java\com\onedumall\dto\ProductsSrc.java
-C:\Users\user1\Desktop\LASTWORKUP\Oneduthreefour\Oneduthreefour\src\main\java\com\onedumall\mapper\ProductsSrcMapper.java
-C:\Users\user1\Desktop\LASTWORKUP\Oneduthreefour\Oneduthreefour\src\main\java\com\onedumall\mapper\RegisterMemMapper.java
-C:\Users\user1\Desktop\LASTWORKUP\Oneduthreefour\Oneduthreefour\src\main\java\com\onedumall\OnedumallApplication.java
-C:\Users\user1\Desktop\LASTWORKUP\Oneduthreefour\Oneduthreefour\src\main\java\com\onedumall\service\ProductsSrcService.java
-C:\Users\user1\Desktop\LASTWORKUP\Oneduthreefour\Oneduthreefour\src\main\java\com\onedumall\service\RegisterMemService.java
-=======
-C:\Users\user1\Desktop\lastWorkspace\Oneduthreefour\src\main\java\com\onedumall\controller\MembersController.java
-C:\Users\user1\Desktop\lastWorkspace\Oneduthreefour\src\main\java\com\onedumall\dto\MembersReg.java
-C:\Users\user1\Desktop\lastWorkspace\Oneduthreefour\src\main\java\com\onedumall\dto\ProductsSrc.java
-C:\Users\user1\Desktop\lastWorkspace\Oneduthreefour\src\main\java\com\onedumall\mapper\ProductsSrcMapper.java
-C:\Users\user1\Desktop\lastWorkspace\Oneduthreefour\src\main\java\com\onedumall\mapper\RegisterMemMapper.java
-C:\Users\user1\Desktop\lastWorkspace\Oneduthreefour\src\main\java\com\onedumall\OnedumallApplication.java
-C:\Users\user1\Desktop\lastWorkspace\Oneduthreefour\src\main\java\com\onedumall\service\ProductsSrcService.java
-C:\Users\user1\Desktop\lastWorkspace\Oneduthreefour\src\main\java\com\onedumall\service\RegisterMemService.java
->>>>>>> fa6e35d132fbef49d2260375868aa8c12879b6d6
-=======
-C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\controller\PostController.java
-C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\dto\Post.java
-C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\mapper\PostMapper.java
-C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\OnedumallApplication.java
-C:\Users\user1\Desktop\last_workspace\onedumall\src\main\java\com\onedumall\service\PostService.java
->>>>>>> 661a71e26095973228655d9a2c734b2a5d90959c
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\controller\LoginController.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\controller\MembersController.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\controller\MypageMainController.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\controller\PostController.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\controller\ProductController.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\dto\Member.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\dto\Members.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\dto\MembersReg.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\dto\Post.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\dto\Product.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\dto\ProductsSrc.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\mapper\MamberMapper.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\mapper\MyinfoMapper.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\mapper\PostMapper.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\mapper\ProductMapper.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\mapper\ProductsSrcMapper.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\mapper\RegisterMemMapper.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\OnedumallApplication.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\service\MemberService.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\service\MyInfoService.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\service\PostService.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\service\ProductService.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\service\ProductsSrcService.java
+C:\Users\user1\Desktop\ㅁㅇㅁㅇㅁㅇㅁㅇ\Oneduthreefour\src\main\java\com\onedumall\service\RegisterMemService.java

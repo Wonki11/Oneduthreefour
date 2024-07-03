@@ -6,7 +6,7 @@
 
 <mapper namespace="com.onedumall.mapper.MyinfoMapper">
 
-	<select id="getLogin" resultType="com.onedumall.dto.Members"
+	 <select id="getLogin" resultType="com.onedumall.dto.Members"
 		parameterType="java.util.Map">
 		SELECT *
 		FROM members
