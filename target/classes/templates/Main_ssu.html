@@ -1,5 +1,42 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+<<<<<<< HEAD
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="/css/main_ssu.css" />
+   
+  </head>
+  <body>
+    
+    <div>
+      <header>
+       <div th:if="${session.loginSession != null}">
+        <p th:text="${session.loginSession.members_id} + ' 환영합니다.'"></p>
+        <a href="/logout">로그아웃</a>
+    	</div>
+      
+      
+        <div class="icon"><a href="/register_ssu">회원가입</a> <a href="/login">로그인</a></div>
+        <h1><a href="/main_ssu">원두쓰리포</a></h1>
+        <div class="search-box" method="get">
+          <form th:action="@{/main_ssu}" method="post">
+          <input
+            class="search-txt"
+            type="text"
+            name="keyword"
+            placeholder="검색어를 입력하세요"
+          required/>
+          <button class="search-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15"
+              height="12"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+=======
 <head>
 <meta charset="utf-8" />
 <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
@@ -29,6 +66,7 @@
 					<button class="search-btn">
 						<svg xmlns="http://www.w3.org/2000/svg" width="15" height="12"
 							fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+>>>>>>> 6d520fdf56f118de7e93b399d5b8322012273c08
               <path
 								d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
             </svg>
